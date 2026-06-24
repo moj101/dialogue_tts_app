@@ -155,91 +155,40 @@ Base URL
 
 
 MIT License
-
-
 English
-
 Introduction
-
 This project is a desktop application built with Python + PyQt5 + SQLite for managing and generating multi-speaker dialogue audio.
-
 Users can enter raw dialogue text, define characters, assign a speaker to each line, edit lines directly, generate speech, and merge all audio files into a final output.
-
 It is useful for:
-
-
 educational content production
-
 language learning conversations
-
 multi-character voice generation
-
 dialogue-based audio preparation
-
-
-
 Features
-
-
 Create, save, load, and delete projects
-
 Define and manage characters
-
 Assign voice, speed, and language per character
-
 Parse raw dialogue text into separate lines
-
 Direct line editing inside the table
-
 Manual character selection for each line
-
 Rebuild only modified lines
-
 Generate audio for one line or all lines
-
 Play generated audio per line
-
 Merge generated audio files
-
 Export final output
-
 Store transactions and costs
-
 Lookup exact cost from AvalAI using x-request-id
-
 Fully disable cost management if needed
-
 Built-in help dialog loaded from external text file
-
 Persian RTL user interface
-
-
-
 Technologies Used
-
-
 Python
-
 PyQt5
-
 SQLite
-
 Requests
-
 AvalAI API
-
-
-
-Project Structure
-
-Example of the main project files:
-
-        
-        text
-        
-    
-  
-      dialogue_tts_app/
+Project Structure:
+ dialogue_tts_app/
 │
 ├── main.py
 ├── ui_main.py
@@ -290,45 +239,8 @@ Mojtaba Mohammadi
 Email: mojsoft@hotmai.com
 License
 MIT License
+   
   
-    
-  
-  
-
-2) فایل requirements.txt
-
-        
-        text
-        
-    
-  
-      PyQt5
-requests
-    
-    
-  
-  
-اگر بعداً کتابخانه دیگری هم اضافه کردی، همان‌جا وارد کن.
-
-
-3) فایل LICENSE
-
-اگر بخواهی پروژه عمومی شود، بهتر است مثلاً MIT بگذاری.
-
-
-اگر بخواهی نسخه بهتر هم می‌دهم
-
-من می‌توانم در پیام بعدی برایت این‌ها را هم آماده کنم:
-
-
-فایل نهایی .gitignore
-
-فایل requirements.txt
-
-فایل LICENSE از نوع MIT
-
-نسخه حرفه‌ای‌تر README با badge و screenshot section
-
 
 اگر خواستی، من همین حالا بسته کامل گیت‌هاب را هم برایت آماده می‌کنم.
 
